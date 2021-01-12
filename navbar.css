@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000033;
+    z-index: 99;
+}
+
+.navbar .logo {
+    /*
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5rem;
+    */
+    display: none;
+}
+
+.navbar-list {
+    list-style: none;
+    /* eliminar más tarde */ text-align: center;
+    padding: 0;
+    margin: 0;
+    /*
+    float: right;
+    */
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 0 .25rem;
+}
+
+header {
+    clear: both;
+}
