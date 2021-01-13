@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Frontender</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Gugi&family=Monda:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -29,11 +31,13 @@
             </li>
         </ul>
     </nav>
-    <header>
-        <h1 class="logo">The Front<span>ender</span></h1>
-        <p>Enfréntate a tus bugs</p>
-        <p>Adéntrate en un mundo lleno de píxeles, lintings y protocolos que te acechan tras cada línea de código. ¿Te atreves?</p>
-        <img src="./img/bg.jpg" alt="Imagen de muestra protagonista">
+    <header class="header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1 class="logo">The Front<span>ender</span></h1>
+            <p class="tagline">Enfréntate a tus bugs</p>
+            <p class="promo-text">Adéntrate en un mundo lleno de píxeles, lintings y protocolos que te acechan tras cada línea de código. ¿Te atreves?</p>
+        </div>
     </header>
     <main>
         <section id="el-juego">
